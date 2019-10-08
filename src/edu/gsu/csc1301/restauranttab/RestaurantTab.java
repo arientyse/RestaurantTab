@@ -46,9 +46,9 @@ public class RestaurantTab
 		System.out.printf("%.1s \n", fname); //Outputs Server's last name and first initial
 		
 		System.out.printf("Meal:    $%.2f \n", meal); //The charge amount for the meal that was inputted
-		System.out.printf("Tax:     $%.2f \n", tax);
-		System.out.printf("Tip:     $%.2f \n", tip);
-		System.out.printf("Total:   $%.2f \n", total);
+		System.out.printf("Tax:     $%.2f \n", tax);  //The final tax amount for the meal that will be added to the total
+		System.out.printf("Tip:     $%.2f \n", tip); //The final tip amount for the meal that will be added to the total
+		System.out.printf("Total:   $%.2f \n", total); //The final calculated total amount for the customer's meal
 		
 	}
 
