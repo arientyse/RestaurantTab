@@ -1,0 +1,2 @@
+module restaurantTab {
+}
